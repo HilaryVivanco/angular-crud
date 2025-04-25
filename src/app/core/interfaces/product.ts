@@ -4,9 +4,10 @@ export interface Product {
     imageUrl: string;
     currencyCode: string;
     price: number;
-    state: number;
+    state: string;  // Cambiado de 'number' a 'string'
     active: boolean;
-}
+  }
+  
 
 export interface SaveProduct {
     name: string;
